@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.56.6:3306/sevatest
+    username:
+    password:
+
+  jpa:
+    generate-ddl: true
+    ddl-auto: update
+server:
+  port: 8080
